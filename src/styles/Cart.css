@@ -1,0 +1,20 @@
+.cart {
+    background-color: #31b572;
+    display: block;
+    width: 25%;
+}
+
+.cart-header {
+    padding-top: 32px;
+}
+
+.cart-list {
+    color: white;
+    padding: 32px;
+}
+
+.cart-footer {
+    padding-bottom: 32px;
+    color: white;
+    font-weight: 800;
+}
