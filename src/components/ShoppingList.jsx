@@ -21,13 +21,14 @@ const ShoppingList = () => {
 					<li key={plant.id} className='lmj-plant-item'>
 						{plant.isBestSale && <span>🔥</span>}
 						{plant.name}
-						<CareScale careType='water' scaleValue={plant.water} />
-						<CareScale careType='light' scaleValue={plant.light} />
 					</li>
 				))}
 			</ul>
 		</div>
 	)
 }
+
+
+
 
 export default ShoppingList;
